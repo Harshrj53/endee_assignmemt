@@ -1,2 +1,5 @@
-.venv
-.wakatime-project
+.git
+__pycache__
+*.pyc
+venv
+.env
