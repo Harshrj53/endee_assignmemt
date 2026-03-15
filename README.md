@@ -1,4 +1,20 @@
-# Vector Store API
+# Semantic Context Engine
+
+This project implements a semantic search API using transformer embeddings
+and the Endee vector database.
+
+## Features
+- Semantic text search
+- FastAPI backend
+- Vector similarity retrieval
+- Dockerized deployment
+
+## Run Locally
+
+docker compose up --build
+
+Open API docs:
+http://localhost:8000/docs# Vector Store API
 
 Welcome to the Vector Store API project! This project aims to provide an efficient and scalable API for embedding and storing vectors, leveraging the power of FastAPI, Langchain and a vector database such as Chroma. Whether you're dealing with text, images, or any data that needs to be converted into vectors and retrieved via similarity search, this API has got you covered. 😄🚀
 
